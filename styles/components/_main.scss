@@ -89,3 +89,33 @@ main {
     }
   }
 }
+
+main {
+  .game-result {
+    display: none;
+    h1 {
+      color: white;
+      font-style: 3.5rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+main {
+  .rules-btn {
+    position: absolute;
+    bottom: -10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    button {
+      padding: 1rem 3rem;
+      text-transform: uppercase;
+      font-size: 1rem;
+      letter-spacing: 2.5px;
+      color: white;
+      background: transparent;
+      border-radius: 10px;
+      border: 1px solid white;
+    }
+  }
+}
