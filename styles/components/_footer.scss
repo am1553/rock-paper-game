@@ -1,0 +1,21 @@
+footer {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid white;
+  border-radius: 10px;
+  .rules {
+    button {
+      padding: 1rem 3rem;
+      text-transform: uppercase;
+      background: transparent;
+      color: white;
+      border: none;
+      font-size: 1rem;
+      letter-spacing: 2.5px;
+      position: relative;
+      border-radius: 10px;
+    }
+  }
+}
